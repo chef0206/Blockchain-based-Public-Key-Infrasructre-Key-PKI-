@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+.text {
+    padding: 20px;
+    margin: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background-color: #2185d0;
+    color: white;
+    transition-duration: 5s;
+    animation: text-animation 4s;
+    transition-timing-function: ease-in-out;
+    direction: reverse;
+}
+@keyframes text-animation {
+    from {
+        font-size: large;
+        letter-spacing: normal;
+    }
+    to {
+        font-size: xx-large;
+        letter-spacing: 3mm;
+    }
+}
+
+.circle {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 300px;
+    animation: circle-animation 5s;
+    transition-timing-function: ease-in-out;
+}
+.container:hover .circle {
+    color: #2185d0;
+}
+
+.square {
+    position: absolute;
+    top: 400px;
+    right: 600px;
+    width: 30px !important;
+}

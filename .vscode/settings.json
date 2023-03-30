@@ -1,0 +1,5 @@
+{
+    "workbench.colorTheme": "Light+ (default light)",
+    "solidity.defaultCompiler": "remote",
+    "solidity.compileUsingRemoteVersion": "v0.4.17+commit.bdeb9e52"
+}
